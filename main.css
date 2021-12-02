@@ -1,0 +1,103 @@
+nav * {
+  font-size: 1.5rem;
+}
+
+html,
+body,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  position: fixed;
+  width: 100vw;
+}
+nav * {
+  outline: none;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgba(43, 43, 43, 0.6);
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  border: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.navbar a:focus,
+.dropdown:hover .dropbtn,
+.dropdown:focus .dropbtn {
+  background-color: rgba(43, 43, 43, 0.6);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(43, 43, 43, 0.6);
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover, .dropdown-content a:focus {
+  background-color: rgba(43, 43, 43, 0.6);
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown:focus .dropdown-content,
+.dropbtn:focus .dropdown-content {
+  display: block;
+}
+
+section {
+  height: 100vh;
+}
+
+header {
+  height: 100vh;
+  background-color: #2C2C2C;
+  background-image: url("img/Something-Green-2880x1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=main.css.map */
