@@ -148,7 +148,7 @@ nav ul {
 
 header {
     height: 100vh;
-    background: #2C2C2C url("img/butterflies-chaos-and-fractals.jpg") no-repeat center;
+    background: #2C2C2C url("img/butterflies-chaos-and-fractals.webp") no-repeat center;
     background-size: cover;
     color: var(--clr-inv-base);
     display: flex;
@@ -223,7 +223,7 @@ section .text > *:last-child {
 
 footer {
     height: 100vh;
-    background: #2C2C2C url("img/footer.png") no-repeat center;
+    background: #2C2C2C url("img/footer.webp") no-repeat center;
     background-size: cover;
     color: var(--clr-inv-base);
     display: flex;
